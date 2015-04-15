@@ -1,0 +1,120 @@
+.button {
+color: white;
+background-color: #0099FF;
+font-size: 16pt;
+text-align: center;
+font-weight: normal;
+border: 2px solid #0099FF;
+/* border-radius: 10px; */
+/* margin: 5px; */
+margin: 0px;
+padding: 10px;
+display: inline-block;
+font-family: "Raleway", sans-serif;
+}
+
+#currentPage {
+background-color: white;
+color: #0099FF;
+}
+
+.button:hover {
+background-color: #80CCFF;
+color: white;
+/* border: 2px solid #80CCFF; */
+border: 2px solid white;
+}
+
+p, div, span, h1, h2, h3, h4, h5, pre {
+font-family: "Raleway", sans-serif;
+}
+
+#navbar {
+/* text-align: center; */
+margin-top: 0%;
+font-size: 0px;
+/*
+background-color: #0099FF;
+background: -moz-linear-gradient(left, #0099FF 46%, white 85%);
+
+
+background: -moz-linear-gradient(left, #0099FF 56%, white 70%);
+background: linear-gradient(left, #0099FF 56%, white 70%);
+*/
+}
+
+#navbar, #banner {
+background: #0099ff; /* Old browsers */
+background: -moz-linear-gradient(left,  #0099ff 46%, #ffffff 85%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(46%,#0099ff), color-stop(85%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #0099ff 46%,#ffffff 85%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #0099ff 46%,#ffffff 85%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #0099ff 46%,#ffffff 85%); /* IE10+ */
+background: linear-gradient(to right,  #0099ff 46%,#ffffff 85%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099ff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+html, body {
+margin: 0px;
+padding: 0px;
+}
+
+
+#leftColumn, #rightColumn, #content {
+  margin-bottom:100px;
+}
+
+
+#leftColumn {
+  width: 40%;
+  float: left;
+}
+
+#rightColumn {
+  width:40%;
+  float:right;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+#content {
+  padding: 60px;
+  display:inline-block;
+}
+
+
+#banner {	
+height: 100px;
+
+/*
+width: 70%;
+*/
+margin:0px;
+font-family: "Raleway", sans-serif;
+
+/*
+background: -moz-linear-gradient(left, #0099FF 80%, white 100%);
+
+background: -moz-linear-gradient(left, #0099ff 46%, #ffffff 85%); /* FF3.6+ */
+
+
+
+
+} 
+
+p.title {
+font-family: "Raleway", sans-serif;
+font-size: 24pt;
+font-weight: normal;
+display: inline-block;
+vertical-align: text-middle;
+color: white;
+margin-left: 5%;
+}
+
+img.title {
+height: 5%;
+}
