@@ -1,16 +1,34 @@
 .button {
-color: white;
+
 background-color: #0099FF;
 font-size: 16pt;
-text-align: center;
-font-weight: normal;
+
 border: 2px solid #0099FF;
 /* border-radius: 10px; */
 /* margin: 5px; */
-margin: 0px;
-padding: 10px;
-display: inline-block;
-font-family: "Raleway", sans-serif;
+
+}
+
+.button, .portButton {
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	margin: 0px;
+	padding: 10px;
+	display: inline-block;
+	font-family: "Raleway", sans-serif;
+}
+
+.portButton {
+	font-size: 12pt;
+	background-color: #6600CC;
+	border: 2px solid #6600CC;
+}
+
+.portButton:hover {
+	color: white;
+	border: 2px solid white;
+	background-color: #944DDB;
 }
 
 #currentPage {
@@ -42,6 +60,19 @@ background: -moz-linear-gradient(left, #0099FF 56%, white 70%);
 background: linear-gradient(left, #0099FF 56%, white 70%);
 */
 }
+
+#portNavbar {
+	font-size: 0px;
+	background: #6600CC; /* Old browsers */
+	background: -moz-linear-gradient(left,  #6600CC 46%, #ffffff 85%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(46%,#6600CC), color-stop(85%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #6600CC 46%,#ffffff 85%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #6600CC 46%,#ffffff 85%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #6600CC 46%,#ffffff 85%); /* IE10+ */
+	background: linear-gradient(to right,  #6600CC 46%,#ffffff 85%); /* W3C */
+
+}
+
 
 #navbar, #banner {
 background: #0099ff; /* Old browsers */
