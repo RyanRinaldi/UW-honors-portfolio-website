@@ -32,8 +32,13 @@ border: 2px solid #0099FF;
 }
 
 #currentPage {
-background-color: white;
-color: #0099FF;
+	background-color: white;
+	color: #0099FF;
+}
+
+#currentPortPage {
+	background-color: white;
+	color: #6600CC;
 }
 
 .button:hover {
