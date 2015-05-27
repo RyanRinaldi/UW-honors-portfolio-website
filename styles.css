@@ -1,5 +1,14 @@
 body {
 	font-family: "Raleway", sans-serif;
+
+	background-image: url("res/images/seattle2.jpg"), -moz-linear-gradient(left, #6cab26, #6ceb86);
+	background-image: url("res/images/seattle2.jpg"), linear-gradient(left, #6cab26, #6ceb86);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	Mess around with this depending on the image 
+	background-size: 100% auto;
+	background-position: center;
 }
 
 .button {
@@ -7,6 +16,7 @@ body {
 	border: 2px solid #0099FF;
 	font-size: 16pt;
 }
+
 
 /*
 a {
@@ -126,6 +136,10 @@ pre {
   padding: 60px;
   display:inline-block;
   width: 75%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 
